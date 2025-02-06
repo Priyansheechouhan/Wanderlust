@@ -1,0 +1,157 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+}
+
+.navbar {
+    background-color: white !important;
+    height: 6rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+}
+
+.navbar .search-btn {
+    background-color: #ff385c !important;
+    border: none;
+    color: white;
+    border-radius: 1.4rem;
+    padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    align-items: center;
+}
+ .search-btn i {
+    display: inline;
+}
+.search-input {
+    border-radius: 1.4rem;
+    padding: 0.4rem 3rem 0.4rem 3rem;
+}
+
+.nav-link{
+    color: black;
+}
+.navbar-nav{
+    align-items: center;
+}
+
+.fa-compass {
+    color: #ff385c;
+    font-size: 2rem;
+}
+
+/* cards */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 2rem;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    
+}
+
+.card-img-overlay:hover {
+    opacity: 0.4;
+    background-color: white;
+}
+
+/* footer Styling */
+
+.f-info {
+    height: 6rem !important;
+    background-color: rgb(227, 224, 224);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.f-info-social-links a{
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: black !important;
+    margin-right: 1rem;
+}
+
+
+.f-info-credential a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: black !important;
+}
+.f-info-credential a:hover {
+    text-decoration: underline;
+}
+
+.f-info-social-links, .f-info-credential, .f-info-para {
+    
+    width: 100%;
+    
+}
+
+.new-btn {
+    padding: 8px 40px !important;
+    border:none;
+    background-color: #ff385c !important;
+    color: white !important;
+}
+
+/* show Page */
+
+.show-img {
+    height: 40vh;
+}
+.delete-btn{
+    padding: 8px 40px !important;
+}
+.btns {
+    display: flex;
+}
+
+
+/* Map */
+#map {
+    height: 50vh;
+    width: 100%;
+}
+.new-lisitng-option{
+    border-radius: 25px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+}
+
+.new-lisitng-option:hover {
+    background-color: #EBEBEB;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
